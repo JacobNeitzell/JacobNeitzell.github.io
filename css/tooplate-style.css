@@ -18,6 +18,8 @@ h1 {
   font-size: 2.8rem;
 }
 
+
+
 #tm-bg {
   position: fixed;
   top: 0;
@@ -114,6 +116,12 @@ p {
   font-size: 2.5em;
 }
 
+.proj-img {
+  height: 25rem;
+  width: 25rem;
+
+}
+
 .product {
   background: transparent;
   transition: all 0.3s ease;
@@ -133,16 +141,20 @@ p {
 .tm-page-title {
   font-weight: 300;
 }
+
 .content {
   max-width: 370px;
 }
+
 .grid {
   display: flex;
   flex-wrap: wrap;
 }
+
 .grid__item {
   margin: 10px;
 }
+
 .product {
   position: relative;
   cursor: pointer;
@@ -187,7 +199,7 @@ p {
   display: none;
 }
 
-.details > * {
+.details>* {
   position: relative;
   opacity: 0;
 }
@@ -320,12 +332,15 @@ footer {
 .tm-text-highlight {
   color: white;
 }
+
 .tm-text-highlight:hover {
   color: red;
 }
+
 .tm-main-content.tm-footer-relative {
   flex-direction: column;
 }
+
 .tm-main-content.tm-footer-relative footer {
   position: relative;
   bottom: 0;
@@ -342,6 +357,7 @@ a,
 button {
   transition: all 0.3s ease;
 }
+
 a:hover,
 a:focus {
   text-decoration: none;
@@ -358,7 +374,8 @@ p:last-child {
   }
 }
 
-@media (min-width: 767px) and (max-width: 991px), (max-width: 440px) {
+@media (min-width: 767px) and (max-width: 991px),
+(max-width: 440px) {
   .tm-nav-link {
     width: 145px;
     height: 145px;
@@ -369,21 +386,26 @@ p:last-child {
   .container {
     max-width: 450px;
   }
+
   .content {
     margin-left: auto;
     margin-right: 0;
   }
+
   .tm-nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
   }
+
   .grid {
     justify-content: flex-end;
   }
+
   .tm-col-email {
     padding-left: 15px;
   }
+
   .tm-reverse-sm {
     flex-direction: column-reverse;
   }
@@ -393,9 +415,11 @@ p:last-child {
   .tm-main-content {
     flex-direction: column;
   }
+
   .details__bg {
     padding: 55px 40px;
   }
+
   .slick-dots li button:before {
     font-size: 15px;
   }
