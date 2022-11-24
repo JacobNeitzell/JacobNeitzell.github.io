@@ -351,9 +351,23 @@ footer {
   background-color: rgba(0, 0, 0, 0.6);
   display: inline-block;
   padding: 10px 30px;
+
 }
 
-a,
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+footer {
+  width: 100%;
+  padding: 0;
+  clear: both;
+  bottom: 0;
+  position: sticky;
+}
+
+s a,
 button {
   transition: all 0.3s ease;
 }
